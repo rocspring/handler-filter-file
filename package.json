@@ -1,0 +1,23 @@
+{
+  "name": "handler-filter-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./demo/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocspring/handler-filter-file.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocspring/handler-filter-file/issues"
+  },
+  "homepage": "https://github.com/rocspring/handler-filter-file#readme",
+  "dependencies": {
+    "filter-files": "^0.4.0",
+    "prepend-file": "^1.3.1"
+  }
+}
