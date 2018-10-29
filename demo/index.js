@@ -1,9 +1,9 @@
 const prependFilterFile = require('../index');
 
-const folder = './test';
+const folder = '../src';
 const addContent = '/* eslint-disable */ \n';
-const filterFun = (filePath) => {
-  return /\.js$/.test(filePath);
+const filterFun = (stat, path) => {
+  return /\.js$/.test(path);
 };
 
 prependFilterFile(folder, addContent, filterFun);
