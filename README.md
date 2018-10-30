@@ -1,2 +1,10 @@
 # handler-filter-file
-prepend || append to filter files
+> modify content of filter files
+
+### prependFilterFile
+
+prepend content in flitered files
+
+```
+prependFilterFile(folder, addContent, filterFun)
+```
