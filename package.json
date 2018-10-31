@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node ./demo/index.js"
   },
+  "bin": {
+    "prepend": "./bin/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rocspring/handler-filter-file.git"

@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const args = process.argv.slice(2);
+const prependFilterFile = require('../index');
+
+console.log(args);
+if (args.length < 1) {
+  console.log('please input folder path');
+  process.exit(0);
+}
+
+prependFilterFile(...args);
