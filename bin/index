@@ -2,11 +2,16 @@
 
 const args = process.argv.slice(2);
 const prependFilterFile = require('../index');
+const prependEslintDisable = require('../demo/index');
 
 console.log(args);
-if (args.length < 1) {
-  console.log('please input folder path');
+
+if (args.length === 0) {
+   console.log('please input folder path');
   process.exit(0);
+} else if (args.length === 1) {
+  prependEslintDisable(...args);
+} else {
+  prependFilterFile(...args);
 }
 
-prependFilterFile(...args);

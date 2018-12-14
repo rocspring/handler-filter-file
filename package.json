@@ -1,10 +1,10 @@
 {
   "name": "handler-filter-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./demo/index.js"
+    "test": "node ./bin/index"
   },
   "bin": {
     "prepend": "./bin/index"
